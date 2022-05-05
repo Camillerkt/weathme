@@ -1,0 +1,96 @@
+.DefaultNavbar {
+  background: linear-gradient(
+      rgba(30, 33, 58, 0.95) 100%,
+      rgba(30, 33, 58, 0.95) 100%
+    ),
+    url("../../../assets/images/Cloud-background.png");
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  height: 100%;
+
+  .buttons {
+    padding: 30px 30px 0;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      background-color: #6e707a;
+      color: #e7e7eb;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      padding: 0px 10px;
+    }
+    #locationBtn {
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+
+      span {
+        margin: 5px -5px;
+      }
+    }
+  }
+
+  .centered {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 45%;
+      height: auto;
+    }
+
+    h1 {
+      font-weight: 500;
+      font-size: 6em;
+      margin: 40px 0 0;
+
+      span {
+        margin-left: -20px;
+        font-size: 30px;
+        color: #a09fb1;
+      }
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #a09fb1;
+      text-transform: capitalize;
+      font-weight: 500;
+    }
+
+    footer {
+      color: #88869d;
+      font-size: 13px;
+      text-align: center;
+
+      h3 {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 300;
+      }
+
+      p {
+        span {
+          margin: 0 7px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 818px) {
+  .DefaultNavbar {
+    padding-bottom: 20px;
+
+    .centered {
+      margin-top: 50px;
+    }
+  }
+}

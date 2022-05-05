@@ -1,0 +1,43 @@
+.WeatherCard {
+  margin-bottom: 20px;
+  background-color: #1e213a;
+  min-width: 120px;
+  height: 190px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+
+  h2 {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  img {
+    width: 60px;
+    height: 55px;
+  }
+
+  footer {
+    padding: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    p {
+      font-size: 20px;
+
+      span {
+        padding-left: 20px;
+        color: #a09fb1;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 818px) {
+  .WeatherCard {
+    width: 100%;
+  }
+}

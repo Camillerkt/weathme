@@ -1,0 +1,60 @@
+.HightlightCard {
+  background-color: #1e213a;
+  min-width: 300px;
+  height: 200px;
+  margin-top: 40px;
+  margin-right: 40px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h5 {
+    font-weight: 500;
+  }
+
+  h1 {
+    font-size: 60px;
+    font-weight: 600;
+
+    span.unit {
+      font-size: 25px;
+      font-weight: 200;
+      margin-left: -10px;
+    }
+  }
+
+  p#wind_direction span {
+    font-size: 40px;
+    font-weight: 100;
+    color: #a09fb1;
+  }
+
+  .progressBar {
+    position: relative;
+
+    progress {
+      margin-top: 15px;
+      border: none;
+      height: 5px;
+      background: #ffec65;
+      border-radius: 30px;
+    }
+    progress::-webkit-progress-value {
+      border-radius: 30px;
+      background: #ffec65;
+    }
+    progress::-webkit-progress-bar {
+      border-radius: 30px;
+      background: #e7e7eb;
+    }
+
+    label {
+      color: #a09fb1;
+      position: absolute;
+      right: 0px;
+      margin-top: 23px;
+      font-size: 12px;
+    }
+  }
+}

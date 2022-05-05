@@ -1,0 +1,66 @@
+.Interface {
+  padding: 30px;
+
+  .buttons {
+    margin-top: -5px;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      margin-left: 10px;
+      border-radius: 50%;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    button.active {
+      background-color: #e7e7eb;
+      color: #110e3c;
+    }
+    button.non-active {
+      background-color: #585676;
+      color: #e7e7eb;
+    }
+  }
+
+  .weather {
+    margin-top: 60px;
+  }
+
+  .hightlights {
+    margin-top: 40px;
+
+    h1 {
+      margin: 0;
+    }
+
+    .hightlightsCards {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  #interfaceFooter {
+    margin-top: 100px;
+    text-align: center;
+
+    p {
+      margin: 0;
+      color: #a09fb1;
+      font-size: 15px;
+
+      a {
+        font-weight: 600;
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+}
